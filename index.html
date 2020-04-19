@@ -1,23 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Best online Food Delivery App in Delhi-NCR | mealme.com</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media = "screen and (max-width: 1200px) " href="css/responsive.css">
 </head>
+
 <body>
     <nav id="navbar">
         <div id="logo">
             <img src="images/logo.png" alt="LOGO">
         </div>
         <ul>
-            <li class="item"><a href="#">Home</a href="#"></li>
-            <li class="item"><a href="#">Services</a></li>
-            <li class="item"><a href="#">About Us</a></li>
-            <li class="item"><a href="#">Contact Us</a></li>
+            <li class="item"><a href="#home">Home</a href="#"></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">About Us</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
+    <section id="home">
+        <h class="h-primary" id="main-heading">Welcome to Meal Me</h>
+        <p class="para"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt possimus qui explicabo
+            maiores, architecto perferendis reiciendis haru</p>
+        <p class="para"> Lorem, ipsum dolor</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <hr>
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="images/home-delivery.png" alt="">
+                <h2 class="h-secondary center">Home Delivery</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, corrupti! Rem, veritatis autem
+                    perspiciatis voluptatem ea vero laudantium est quia officia voluptatibus consequatur tenetur
+                    praesentium sint facilis! Nostrum illo magni repudiandae neque? Corporis, accusantium.</p>
+            </div>
+            <div class="box">
+                <img src="images/catering.jpeg" alt="">
+                <h2 class="h-secondary center">Catering Services</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, corrupti! Rem, veritatis autem
+                    perspiciatis voluptatem ea vero laudantium est quia officia voluptatibus consequatur tenetur
+                    praesentium sint facilis! Nostrum illo magni repudiandae neque? Corporis, accusantium.</p>
+            </div>
+            <div class="box">
+                <img src="images/bulk.jpeg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, corrupti! Rem, veritatis autem
+                    perspiciatis voluptatem ea vero laudantium est quia officia voluptatibus consequatur tenetur
+                    praesentium sint facilis! Nostrum illo magni repudiandae neque? Corporis, accusantium.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center ">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="images/apple1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="images/apple1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="images/apple1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="images/microsoft.png" alt="">
+            </div>
+            <div id = "amazon"class="client-item">
+                <img src="images/amazon.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name = "name" id ="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name = "email" id ="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="number" name = "phone-number" id ="phone-number" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.mealme.com. All rights reserved
+        </div>
+    </footer>
 </body>
+
 </html>
